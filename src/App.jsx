@@ -1,7 +1,6 @@
-import { useState } from "react";
+import { RepositoryList } from './components/RepositoryList';
+import './styles/global.scss';
 
 export function App(){
-    throw new Error('O flamengo perdeu!');
-
-    return <h1>Hello Davi</h1>
+    return <RepositoryList />
 }
